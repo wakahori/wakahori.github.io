@@ -22,6 +22,6 @@ text-decoration: none;
 color: white; 
 }
 .assign img {
-padding: 10px; /* change this from margin to padding */
-border: 2px solid white; /* try dashed, dotted */
+padding: 10px;
+border: 2px dashed white;
 }
