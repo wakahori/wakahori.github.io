@@ -1,27 +1,47 @@
 body {
-background: #c71714;
-font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #c71714;
+	font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: black;
-text-align: center;
+	width: 100%;
+	display: block;
+	color: black;
+	text-align: center;
+}
+h1:hover {
+	color: hotpink;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 .assign {
-	display: flex;
+	display: block;
+	width: 20%;
 	padding: 10px;
 	margin: 10px;
 	background: #ad0085;
+	box-shadow: 8px 8px brown;
+	border-radius: 20px;
 }
 .assign img {
+	padding: 10px;
+	margin: 10px;
+	border: 2px dashed white;
 	width: 200px;
 	padding: 10px;
 }
-
+.assign img:hover {
+	width: 200px;
+	margin: 10px;
+	border: 2px dotted yellow;
+}
 a {
 	text-decoration: none;
 	color: white; 
-}
-	.assign img {
-	padding: 10px;
-	border: 2px dashed white;
 }
